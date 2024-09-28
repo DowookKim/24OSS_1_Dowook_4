@@ -1,14 +1,15 @@
 import './App.css';
+import Hello from './Hello.js';
+import Input from './Input.js';
+import Label from './Label.js';
 import logo from './logo.svg';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          aaa <code>src/App.js</code> and save to reload.
-        </p>
+        <Hello />
+        <Input />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Label />
       </header>
     </div>
   );
